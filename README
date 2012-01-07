@@ -1,0 +1,5 @@
+Shortcut are similar for ergoemacs. Them are adapted for Dvorak keyboard.
+
+Packages/User/DeleteLine - command for line deleting similar to emacs.
+
+Packages/User/MyMark.py - extended version of Packages/Defaults/Mark.py in more emacs style.
