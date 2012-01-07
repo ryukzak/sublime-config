@@ -1,0 +1,81 @@
+[
+    // Ergoemacs style keymap for dvorak keyboard.
+    // http://ergoemacs.org/
+    { "keys": ["alt+q"], "command": "cut" }
+    , { "keys": ["alt+j"], "command": "copy" }
+    , { "keys": ["alt+k"], "command": "paste" }
+    , { "keys": ["alt+;"], "command": "undo" }
+    , { "keys": ["alt+:"], "command": "redo" }
+
+    , { "keys": ["alt+q"], "command": "do_after_mark", "args": {"command": "cut"}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+j"], "command": "do_after_mark", "args": {"command": "copy"}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+k"], "command": "do_after_mark", "args": {"command": "paste"}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+;"], "command": "do_after_mark", "args": {"command": "undo"}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+:"], "command": "do_after_mark", "args": {"command": "redo"}
+        , "context": [{ "key": "setting.with_marker" }] }
+
+    // Move cursor
+    , { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} }
+    , { "keys": ["alt+n"], "command": "move", "args": {"by": "characters", "forward": true} }
+    , { "keys": ["alt+c"], "command": "move", "args": {"by": "lines", "forward": false} }
+    , { "keys": ["alt+t"], "command": "move", "args": {"by": "lines", "forward": true} }
+    , { "keys": ["alt+g"], "command": "move", "args": {"by": "words", "forward": false} }
+    , { "keys": ["alt+r"], "command": "move", "args": {"by": "words", "forward": true} }
+    , { "keys": ["alt+d"], "command": "move_to", "args": {"to": "bol", "extend": false} }
+    , { "keys": ["alt+shift+d"], "command": "move_to", "args": {"to": "eol", "extend": false} }
+    , { "keys": ["alt+shift+c"], "command": "move", "args": {"by": "pages", "forward": false} }
+    , { "keys": ["alt+shift+t"], "command": "move", "args": {"by": "pages", "forward": true} }
+    , { "keys": ["alt+shift+h"], "command": "move_to", "args": {"to": "bof", "extend": false} }
+    , { "keys": ["alt+shift+n"], "command": "move_to", "args": {"to": "eof", "extend": false} }
+
+    // Move cursor with emacs style selection
+    , { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+n"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+c"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+t"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+g"], "command": "move", "args": {"by": "words", "forward": false, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+r"], "command": "move", "args": {"by": "words", "forward": true, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+d"], "command": "move_to", "args": {"to": "bol", "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+shift+d"], "command": "move_to", "args": {"to": "eol", "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+shift+c"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+shift+t"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+shift+h"], "command": "move_to", "args": {"to": "bof", "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+shift+n"], "command": "move_to", "args": {"to": "eof", "extend": true}
+        , "context": [{ "key": "setting.with_marker" }] }
+
+    // Delete
+    , { "keys": ["alt+."], "command": "delete_word", "args": {"forward": false} }
+    , { "keys": ["alt+p"], "command": "delete_word", "args": {"forward": true} }
+    , { "keys": ["alt+shift+i"], "command": "delete_line", "args": {"forward": false} }
+    , { "keys": ["alt+i"], "command": "delete_line", "args": {"forward": true} }
+    , { "keys": ["alt+e"], "command": "left_delete" }
+    , { "keys": ["alt+u"], "command": "right_delete" }
+
+    // Comment
+    , { "keys": ["alt+-"], "command": "toggle_comment", "args": { "block": false } }
+    , { "keys": ["alt+shift+-"], "command": "toggle_comment", "args": { "block": true } }
+    , { "keys": ["alt+-"], "command": "do_after_mark", "args": {"command": "toggle_comment", "args": { "block": false }}
+        , "context": [{ "key": "setting.with_marker" }] }
+    , { "keys": ["alt+shift+-"], "command": "do_after_mark", "args": {"command": "toggle_comment", "args": { "block": false }}
+        , "context": [{ "key": "setting.with_marker" }] }
+
+    // Other
+    , { "keys": ["alt+l"], "command": "show_at_center"}
+    , { "keys": ["alt+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
+    , { "keys": ["alt+space"], "command": "set_mark" }
+]
