@@ -6,48 +6,7 @@
 /Packages/C++
 /Packages/CSS
 /Packages/D
-/Packages/Color Scheme - Default/All Hallow's Eve.tmTheme
-/Packages/Color Scheme - Default/All Hallow's Eve.tmTheme.cache
-/Packages/Color Scheme - Default/Amy.tmTheme
-/Packages/Color Scheme - Default/Amy.tmTheme.cache
-/Packages/Color Scheme - Default/Blackboard.tmTheme
-/Packages/Color Scheme - Default/Blackboard.tmTheme.cache
-/Packages/Color Scheme - Default/Cobalt.tmTheme
-/Packages/Color Scheme - Default/Cobalt.tmTheme.cache
-/Packages/Color Scheme - Default/Dawn.tmTheme
-/Packages/Color Scheme - Default/Dawn.tmTheme.cache
-/Packages/Color Scheme - Default/Eiffel.tmTheme
-/Packages/Color Scheme - Default/Eiffel.tmTheme.cache
-/Packages/Color Scheme - Default/Espresso Libre.tmTheme
-/Packages/Color Scheme - Default/Espresso Libre.tmTheme.cache
-/Packages/Color Scheme - Default/IDLE.tmTheme
-/Packages/Color Scheme - Default/LAZY.tmTheme
-/Packages/Color Scheme - Default/LAZY.tmTheme.cache
-/Packages/Color Scheme - Default/Mac Classic.tmTheme
-/Packages/Color Scheme - Default/Mac Classic.tmTheme.cache
-/Packages/Color Scheme - Default/MagicWB (Amiga).tmTheme
-/Packages/Color Scheme - Default/MagicWB (Amiga).tmTheme.cache
-/Packages/Color Scheme - Default/Monokai Bright.tmTheme.cache
-/Packages/Color Scheme - Default/Monokai.tmTheme
-/Packages/Color Scheme - Default/Monokai.tmTheme.cache
-/Packages/Color Scheme - Default/Pastels on Dark.tmTheme
-/Packages/Color Scheme - Default/Pastels on Dark.tmTheme.cache
-/Packages/Color Scheme - Default/Slush & Poppies.tmTheme
-/Packages/Color Scheme - Default/Slush & Poppies.tmTheme.cache
-/Packages/Color Scheme - Default/Solarized (Dark).tmTheme
-/Packages/Color Scheme - Default/Solarized (Dark).tmTheme.cache
-/Packages/Color Scheme - Default/Solarized (Light).tmTheme
-/Packages/Color Scheme - Default/Solarized (Light).tmTheme.cache
-/Packages/Color Scheme - Default/SpaceCadet.tmTheme
-/Packages/Color Scheme - Default/SpaceCadet.tmTheme.cache
-/Packages/Color Scheme - Default/Sunburst.tmTheme
-/Packages/Color Scheme - Default/Sunburst.tmTheme.cache
-/Packages/Color Scheme - Default/Twilight.tmTheme
-/Packages/Color Scheme - Default/Twilight.tmTheme.cache
-/Packages/Color Scheme - Default/Zenburnesque.tmTheme
-/Packages/Color Scheme - Default/Zenburnesque.tmTheme.cache
-/Packages/Color Scheme - Default/iPlastic.tmTheme
-/Packages/Color Scheme - Default/iPlastic.tmTheme.cache
+/Packages/Color Scheme - Default
 /Packages/Default
 /Packages/Diff
 /Packages/Erlang
@@ -90,3 +49,10 @@
 /Packages/Text
 *.pyc
 *~
+/Packages/SideBarGit
+/Packages/Package Control
+/Packages/Open Recent Files
+/Packages/Terminal
+/Packages/WordHighlight
+/Packages/zenburn
+/Packages/BufferScroll

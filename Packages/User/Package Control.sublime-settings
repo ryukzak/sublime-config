@@ -1,0 +1,14 @@
+{
+	"auto_upgrade_last_run": 1326060969,
+	"installed_packages":
+	[
+		"BufferScroll",
+		"Git",
+		"Open Recent Files",
+		"Package Control",
+		"SideBarGit",
+		"Terminal",
+		"WordHighlight",
+		"zenburn"
+	]
+}
