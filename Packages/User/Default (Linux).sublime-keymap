@@ -78,4 +78,7 @@
     , { "keys": ["alt+l"], "command": "show_at_center"}
     , { "keys": ["alt+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
     , { "keys": ["alt+space"], "command": "set_mark" }
+    , { "keys": ["alt+m", "t"], "command": "open_terminal" }
+    , { "keys": ["alt+m", "alt+t"], "command": "open_terminal_project_folder" }
+
 ]
