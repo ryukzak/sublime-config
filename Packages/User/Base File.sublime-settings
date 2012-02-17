@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/zenburn/zenburn.tmTheme",
-	"font_size": 9,
+	"font_face": "monofur",
+	"font_size": 10,
 	"highlight_line": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,

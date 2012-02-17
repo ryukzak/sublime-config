@@ -1,14 +1,18 @@
 {
-	"auto_upgrade_last_run": 1326060969,
+	"auto_upgrade_last_run": 1329240193,
 	"installed_packages":
 	[
-		"BufferScroll",
+		"Alignment",
 		"Git",
 		"Open Recent Files",
 		"Package Control",
+		"SideBarEnhancements",
 		"SideBarGit",
+		"SublimeREPL",
 		"SublimeTODO",
+		"SystemVerilog",
 		"Terminal",
+		"Theme - Soda",
 		"WordHighlight",
 		"zenburn"
 	]

@@ -66,6 +66,10 @@
     , { "keys": ["alt+e"], "command": "left_delete" }
     , { "keys": ["alt+u"], "command": "right_delete" }
 
+
+    , { "keys": ["alt+shift+r"], "command": "next_view" }
+    , { "keys": ["alt+shift+g"], "command": "prev_view" }
+
     // Comment
     , { "keys": ["alt+-"], "command": "toggle_comment", "args": { "block": false } }
     , { "keys": ["alt+shift+-"], "command": "toggle_comment", "args": { "block": true } }
@@ -80,5 +84,11 @@
     , { "keys": ["alt+space"], "command": "set_mark" }
     , { "keys": ["alt+m", "t"], "command": "open_terminal" }
     , { "keys": ["alt+m", "alt+t"], "command": "open_terminal_project_folder" }
+    , { "keys": ["alt+m", "c"], "command": "build" }
+    , { "keys": ["alt+'"], "command": "alignment" }
+    , { "keys": ["alt+shift+l"], "command": "split_selection_into_lines" }
+    , { "keys": ["alt+s"], "command": "show_panel", "args": {"panel": "find"} }
+    , { "keys": ["art+shift+s"], "command": "show_panel", "args": {"panel": "replace"} }
+
 
 ]
